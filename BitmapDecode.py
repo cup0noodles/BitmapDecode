@@ -1,9 +1,9 @@
 """
-Encode PPM file to RV32 Data Block for PolyPlatformers
+Encode PPM file to RV32I compatible Data Block for PolyPlatformers
 """
 
 if __name__ == '__main__':
-    with open('ImgTest3.ppm', 'r') as image:
+    with open('PerryPlat.ppm', 'r') as image:
         image_dump = image.readlines()
     image_list = image_dump[4:]
 
